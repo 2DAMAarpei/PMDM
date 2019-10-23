@@ -1,0 +1,39 @@
+package com.example.spinnersimple;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity {
+    Spinner miSpinner;
+    final static String semana[]={"lunes","martes","miercoles","jueves","viernes","sabado","domingo"};
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        String mensaje;
+        miSpinner=(Spinner)findViewById(R.id.spinner1);
+        ArrayAdapter<String> miAdaptador=new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,semana);
+        miSpinner.setAdapter(miAdaptador);
+        miSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                String mensaje="";
+                mensaje="Item clicked=> "+semana[position];
+                Toast.makeText(getApplicationContext(),mensaje,Toast.LENGTH_SHORT).show();
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView){
+
+            }
+        });
+    }
+    public void showToast(String text){
+        Toast.makeText(this,text,Toast.LENGTH_SHORT).show();
+    }
+}

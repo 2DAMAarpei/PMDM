@@ -6,14 +6,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
-import java.io.File;
-import java.util.List;
+
+//Hay puesto un image picker
 
 public class MainActivity extends AppCompatActivity {
     EditText inNombre;
@@ -43,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                }
             );
     }
+//Código ImagePicker
     public void pickImage(View v) {
         Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
         intent.setType("image/*");
