@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 
-//Hay puesto un image picker
+//Hay puesto un botón que permite seleccionar una imagen
 
 public class MainActivity extends AppCompatActivity {
     EditText inNombre;
