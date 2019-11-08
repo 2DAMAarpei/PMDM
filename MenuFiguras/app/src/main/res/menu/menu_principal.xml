@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/MnuOpc1" android:title="Rectangulo"
+        android:icon="@drawable/rectangle">
+        <menu>
+            <item android:id="@+id/MnuOpc1Dibuja" android:title="Dibuja"></item>
+            <item android:id="@+id/MnuOpc1Calcula" android:title="Calcula"></item>
+        </menu>
+
+    </item>
+    <item android:id="@+id/MnuOpc2" android:title="Circulo"
+        android:icon="@drawable/circle">
+        <menu>
+            <item android:id="@+id/MnuOpc2Dibuja" android:title="Dibuja"></item>
+            <item android:id="@+id/MnuOpc2Calcula" android:title="Calcula"></item>
+        </menu>
+    </item>
+    <item android:id="@+id/MnuOpc3" android:title="Triangulo"
+        android:icon="@drawable/triangle">
+        <menu>
+            <item android:id="@+id/MnuOpc3Dibuja" android:title="Dibuja"></item>
+            <item android:id="@+id/MnuOpc3Calcula" android:title="Calcula"></item>
+        </menu>
+    </item>
+    <item android:id="@+id/MnuOpc4" android:title="Cuadrado"
+        android:icon="@drawable/square">
+        <menu>
+            <item android:id="@+id/MnuOpc4Dibuja" android:title="Dibuja"></item>
+            <item android:id="@+id/MnuOpc4Calcula" android:title="Calcula"></item>
+        </menu>
+    </item>
+</menu>
+
