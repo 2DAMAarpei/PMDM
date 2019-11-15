@@ -4,11 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.renderscript.ScriptGroup;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -27,23 +32,21 @@ public class MainActivity extends AppCompatActivity {
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
-        Intent intentIncial = new Intent(MainActivity.this,Window_Area.class);
+        ViewGroup viewGroup = findViewById(R.id.viewGroup);
+        viewGroup.removeAllViews();
         switch (item.getItemId()) {
             case  R.id.MnuOpc1Calcula:
-                intentIncial.putExtra("option",1);
-                startActivity(intentIncial);
+                getLayoutInflater().inflate(R.layout.objects_area_rectangle,viewGroup);
+
                 break;
             case  R.id.MnuOpc2Calcula:
-                intentIncial.putExtra("option",2);
-                startActivity(intentIncial);
+                getLayoutInflater().inflate(R.layout.objects_area_circle,viewGroup);
                 break;
             case  R.id.MnuOpc3Calcula:
-                intentIncial.putExtra("option",3);
-                startActivity(intentIncial);
+                getLayoutInflater().inflate(R.layout.objects_area_triangle,viewGroup);
                 break;
             case  R.id.MnuOpc4Calcula:
-                intentIncial.putExtra("option",4);
-                startActivity(intentIncial);
+                getLayoutInflater().inflate(R.layout.objects_area_square,viewGroup);
                 break;
             default:
                 break;
