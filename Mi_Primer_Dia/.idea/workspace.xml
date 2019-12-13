@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb78d58-a3b0-4689-8e61-ca527bc1865d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MenuFiguras/app/src/main/java/com/example/menufiguras/Area.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MenuFiguras/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MenuFiguras/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Punt_Lila_Testing/app/src/main/res/drawable/logo_serpis.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Punt_Lila_Testing/app/src/main/res/layout/activity_maps.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/java/com/example/examen_ud1_version_mejorada/Seleccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable-v24/logo_dam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/bici1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/bici2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/bici3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/bicicleta_icono.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/coche1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/coche2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/coche_icono.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/cohe3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/patinete_icono.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/pt1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/pt2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/pt3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/layout/activity_factura.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/layout/activity_seleccion.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MenuFiguras/app/src/main/java/com/example/menufiguras/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MenuFiguras/app/src/main/java/com/example/menufiguras/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MenuFiguras/app/src/main/java/com/example/menufiguras/Window_Area.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MenuFiguras/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MenuFiguras/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MenuFiguras/app/src/main/res/layout/objects_area_circle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MenuFiguras/app/src/main/res/layout/objects_area_circle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MenuFiguras/app/src/main/res/layout/objects_area_rectangle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MenuFiguras/app/src/main/res/layout/objects_area_rectangle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MenuFiguras/app/src/main/res/layout/objects_area_square.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MenuFiguras/app/src/main/res/layout/objects_area_square.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MenuFiguras/app/src/main/res/layout/objects_area_triangle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MenuFiguras/app/src/main/res/layout/objects_area_triangle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
@@ -38,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/miprimerdia/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="315">
+              <caret line="30" column="55" lean-forward="true" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
               <folding>
                 <element signature="e#678#1055#0" expanded="true" />
                 <element signature="e#1054#1055#0" expanded="true" />
@@ -53,11 +64,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="584" />
-    <option name="y" value="156" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="532" />
+    <option name="y" value="24" />
     <option name="width" value="960" />
-    <option name="height" value="1028" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -65,16 +76,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MiPrimerDia" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="MiPrimerDia" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="MiPrimerDia" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="miprimerdia" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MenuFiguras" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../examen_Ud1_Aaron_Palmer_Peiro" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,8 +196,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16061899" />
@@ -181,7 +212,7 @@
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="5" visible="true" weight="0.35952637" />
+      <window_info anchor="bottom" id="Build" order="5" visible="true" weight="0.37095088" />
       <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -193,8 +224,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/miprimerdia/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="315">
+          <caret line="30" column="55" lean-forward="true" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
           <folding>
             <element signature="e#678#1055#0" expanded="true" />
             <element signature="e#1054#1055#0" expanded="true" />
