@@ -2,7 +2,10 @@ package com.example.videojuegobici;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Button;
 
@@ -20,16 +23,29 @@ public class MainActivity extends AppCompatActivity {
         bJuego.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                lanzaJuego();
+                lanzaJuego(getApplicationContext());
             }
         });
         bAcercaDe=(Button)findViewById(R.id.Boton03);
-        bAcercaDe.setOnClickListener(new View.OnClickListener() {
+/*        bAcercaDe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 lanzarAcercaDe();
             }
+
+        });*/
+        bSalir=findViewById(R.id.Boton04);
+        bSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               System.exit(0);
+            }
         });
+
+    }
+    public void lanzaJuego(Context context){
+            Intent activityIntent=new Intent(context,Juego.class);
+            startActivity(activityIntent);
     }
 
 }
