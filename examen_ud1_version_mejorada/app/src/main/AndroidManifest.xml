@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SeleccionActivity"></activity>
+        <activity android:name=".FacturaActivity"></activity>
     </application>
 
 </manifest>

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/aarpei/Escritorio/Proyectos_AS/PMDM/VideojuegoBici/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml",
+            "outputFile": "/home/aarpei/Escritorio/Repo_PMM/PMDM/VideojuegoBici/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml",
             "map": [
                 {
                     "source": "/home/aarpei/.gradle/caches/transforms-2/files-2.1/8f8ab13dc8f4e84e14a8bb3d9ac92bc4/core-1.0.1/res/values-lt/values-lt.xml",

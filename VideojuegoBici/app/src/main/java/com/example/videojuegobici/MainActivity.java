@@ -8,13 +8,12 @@ import android.os.Bundle;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
     private Button bJuego;
-    private Button bPreferencias;
-    private Button bAcercaDe;
     private Button bSalir;
-
+    private Button bHome;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,14 +25,6 @@ public class MainActivity extends AppCompatActivity {
                 lanzaJuego(getApplicationContext());
             }
         });
-        bAcercaDe=(Button)findViewById(R.id.Boton03);
-/*        bAcercaDe.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                lanzarAcercaDe();
-            }
-
-        });*/
         bSalir=findViewById(R.id.Boton04);
         bSalir.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,11 +32,24 @@ public class MainActivity extends AppCompatActivity {
                System.exit(0);
             }
         });
+        bHome=findViewById(R.id.btn_home);
+        bHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                volverAlHome(getApplicationContext());
+            }
+        });
 
     }
     public void lanzaJuego(Context context){
             Intent activityIntent=new Intent(context,Juego.class);
+            finish();
             startActivity(activityIntent);
+    }
+    public void volverAlHome(Context context){
+        Intent activityIntent=new Intent(context,MainActivity.class);
+        finish();
+        startActivity(activityIntent);
     }
 
 }

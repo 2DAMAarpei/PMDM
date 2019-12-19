@@ -3,17 +3,16 @@ package com.example.examen_ud1_version_mejorada;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.lang.reflect.Array;
 import java.util.Random;
+
+/*EN este ejercicio uso RecyclerView el cual debe implmentarse en el archivo build.gradle
+en el apartado 'dependencies' --> implementation 'androidx.recyclerview:recyclerview:1.0.0'*/
 
 public class MainActivity extends AppCompatActivity {
     static int imgIconos[] = {R.drawable.bicicleta_icono,R.drawable.patinete_icono,R.drawable.coche_icono};
@@ -42,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                     Bundle datos= new Bundle();
                     datos.putString("vehiculo",vehiculo);
                     seleccionIntent.putExtras(datos);
+                    System.out.println(datos.getString("vehiculo"));
                     startActivity(seleccionIntent);
                 }
 
