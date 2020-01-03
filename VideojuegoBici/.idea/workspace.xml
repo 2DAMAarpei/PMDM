@@ -11,6 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="93417bca-56b0-469c-a6d4-0c9da74ed9a1" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/tool_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/java/com/example/examen_ud1_version_mejorada/Factura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/java/com/example/examen_ud1_version_mejorada/FacturaActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -435,6 +437,22 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_juego.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_juego.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/java/com/example/examen_ud1_version_mejorada/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/java/com/example/examen_ud1_version_mejorada/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/java/com/example/examen_ud1_version_mejorada/SeleccionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/java/com/example/examen_ud1_version_mejorada/SeleccionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/bicicleta1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/bicicleta2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/bicicleta3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/coche1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/coche2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/cohe3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/patinete1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/patinete2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/drawable/patinete3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/layout/activity_factura.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/layout/activity_factura.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/layout/activity_seleccion.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/layout/activity_seleccion.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/layout/spinner_content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../examen_ud1_version_mejorada/app/src/main/res/layout/recyclerview_content.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -659,6 +677,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -670,9 +691,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -783,10 +801,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="592" y="508" width="927" height="1173" extended-state="0" />
+    <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.34052214" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16602103" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -799,15 +817,15 @@
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="5" visible="true" weight="0.28256705" />
-      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="5" visible="true" weight="0.28202677" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.3291536" />
       <window_info anchor="bottom" id="Debug" order="8" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.6242906" />
+      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.6242391" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
