@@ -111,7 +111,7 @@ public class SeleccionActivity extends AppCompatActivity {
 
         //Se debe poner si el recycled view va a tener un tamaño fijo para mejorar la perfomance
         recyclerViewVehiculos.setHasFixedSize(true);
-
+        //Layout manager --> es el responsable de medir y poscionar los views en el recyclerView, además de gestionar cuando se reciclara una view
         recyclerViewVehiculos.setLayoutManager(new LinearLayoutManager(this));
 
         RecyclerViewAdapter adapter = new RecyclerViewAdapter(vehiculos);
@@ -177,6 +177,8 @@ public class SeleccionActivity extends AppCompatActivity {
             this.vehiculos = vehiculos;
         }
 
+        //Se llama cuando el Recycler view necesita un nuevo View Holder
+
         @Override
         public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
             View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.recyclerview_content, parent, false);
@@ -194,10 +196,10 @@ public class SeleccionActivity extends AppCompatActivity {
             });
             return viewHolder;
         }
+        //Se llama cuando el Recycler view necesita bindear datos
 
         @Override
         public void onBindViewHolder(ViewHolder holder, int position) {
-
             holder.modelo.setText(vehiculos.get(position).getModelo());
             holder.imagen.setImageResource(vehiculos.get(position).getImagen());
             holder.precio.setText(vehiculos.get(position).getPrecio());
